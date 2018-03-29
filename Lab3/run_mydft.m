@@ -24,6 +24,6 @@ x2 = sin(2*pi*f1*t);
 x3 = sin(2*pi*f2*t);
 
 x =  2*x2 + 3*x3;
-[X,W, Xph] = mydft(x, sr);
+[X,W, Xamp, Xph] = mydft(x, sr);
 
 
